@@ -60,6 +60,7 @@ body {
 }
 
 .toggle-container .toggle .circle {
+  display: inline-block;
   background-color: white;
   width: 20px;
   height: 85%;

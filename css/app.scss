@@ -52,6 +52,7 @@ body {
         
         .circle {
             $width: 20px;
+            display: inline-block;
             background-color: white;
             width: $width;
             height: 85%;
