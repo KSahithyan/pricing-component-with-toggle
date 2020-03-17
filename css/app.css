@@ -13,7 +13,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 15px;
+  font-size: 100%;
   background-color: #f6f6fe;
 }
 
@@ -74,6 +74,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
   width: 68vw;
   margin-top: 32px;
   -ms-grid-columns: 1fr 1.2fr 1fr;
@@ -115,7 +121,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 75%;
-  padding: 10% 20px 14%;
+  padding: 2em 1em 2.4em;
   font-size: 1rem;
   border-radius: 10px;
 }
